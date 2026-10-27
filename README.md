@@ -1,16 +1,28 @@
-# practice
+# Flutter-Ecommerce-UI
 
-A new Flutter project.
+A Flutter UI kit for a shopping app — the screens and widgets, with no backend behind them. Use it as a starting point to hang real data on.
 
-## Getting Started
+## Screens and widgets
 
-This project is a starting point for a Flutter application.
+| File | What it is |
+|---|---|
+| `lib/splash.dart` | Animated splash screen |
+| `lib/home.dart` | Home page assembling the sections below |
+| `lib/pages/cart.dart` | Cart screen |
+| `lib/pages/feedback.dart` | Feedback form |
+| `lib/widget/carousel.dart` | Promotional carousel |
+| `lib/widget/product_slider.dart` | Horizontally scrolling product rail |
+| `lib/widget/products.dart` | Product grid/list item |
 
-A few resources to get you started if this is your first Flutter project:
+## Running
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter pub get
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The Dart package name in `pubspec.yaml` is `practice`; rename it (and the `applicationId` in `android/app/build.gradle`) before shipping anything.
+
+## Notes
+
+UI practice: layout, carousel and slider behaviour against static content. Adding state management and a data source is what would turn it into an app.
