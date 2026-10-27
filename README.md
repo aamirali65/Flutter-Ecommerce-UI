@@ -1,28 +1,77 @@
-# Flutter-Ecommerce-UI
+# Flutter E-Commerce UI
 
-A Flutter UI kit for a shopping app — the screens and widgets, with no backend behind them. Use it as a starting point to hang real data on.
+A modern, clean e-commerce mobile app UI built with Flutter. This project showcases a complete shopping app interface with beautiful animations and user-friendly design.
 
-## Screens and widgets
+## Features
 
-| File | What it is |
-|---|---|
-| `lib/splash.dart` | Animated splash screen |
-| `lib/home.dart` | Home page assembling the sections below |
-| `lib/pages/cart.dart` | Cart screen |
-| `lib/pages/feedback.dart` | Feedback form |
-| `lib/widget/carousel.dart` | Promotional carousel |
-| `lib/widget/product_slider.dart` | Horizontally scrolling product rail |
-| `lib/widget/products.dart` | Product grid/list item |
+- **Splash Screen** - Animated welcome screen
+- **Home Page** - Product browsing with carousel and product sliders
+- **Product Catalog** - Organized product displays
+- **Shopping Cart** - Cart management interface
+- **Feedback Form** - User feedback collection
 
-## Running
+## Screenshots
 
+*Screenshots coming soon*
+
+## Tech Stack
+
+- [Flutter](https://flutter.dev/) - UI framework
+- [Dart](https://dart.dev/) - Programming language
+- [Material Design](https://material.io/) - Design system
+
+## Getting Started
+
+### Prerequisites
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) (>= 2.0.0)
+- [Dart SDK](https://dart.dev/get-dart)
+- Android Studio / VS Code with Flutter extensions
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/aamirali65/Flutter-Ecommerce-UI.git
+cd Flutter-Ecommerce-UI
+```
+
+2. Install dependencies:
 ```bash
 flutter pub get
+```
+
+3. Run the app:
+```bash
 flutter run
 ```
 
-The Dart package name in `pubspec.yaml` is `practice`; rename it (and the `applicationId` in `android/app/build.gradle`) before shipping anything.
+## Project Structure
+
+```
+lib/
+├── main.dart          # App entry point
+├── splash.dart        # Splash screen
+├── home.dart          # Home screen
+├── pages/             # App pages
+│   ├── cart.dart
+│   └── feedback.dart
+└── widget/            # Reusable widgets
+    ├── carousel.dart
+    ├── product_slider.dart
+    └── products.dart
+```
 
 ## Notes
 
-UI practice: layout, carousel and slider behaviour against static content. Adding state management and a data source is what would turn it into an app.
+- This is a UI-only implementation with static content
+- Package name is `practice` in `pubspec.yaml` - update before publishing
+- Update `applicationId` in `android/app/build.gradle` if deploying to Play Store
+
+## License
+
+This project is open source and available for learning purposes.
+
+## Author
+
+[Aamir Ali](https://github.com/aamirali65)
